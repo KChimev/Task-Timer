@@ -1,0 +1,35 @@
+body{
+    background: #ddd;
+    margin: 24px;
+}
+#task_time_taken{
+    width: 30%;
+    height: 30%;
+    margin-left: 30vw;
+    margin-top: 30vh;
+    font-family: sans-serif;
+    padding: 20px 20px;
+    border-radius: 30px;
+    background: white;
+    display: inline-block;
+}
+.timer__part{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 160px;
+}
+.timer__btn{
+width: 50px;
+height: 50px;
+margin-left: 16px;
+border-radius: 50%;
+border: none;
+color: white;
+background: #8208e6;
+}
+.timer__btn--start{
+    background: #00b84c;
+}
+.timer__btn--stop{
+    background: #ff0256;
+}
